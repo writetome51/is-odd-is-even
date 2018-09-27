@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var errorIfArrayItemIsNotNumber_1 = require("../errorIfArrayItemIsNotNumber");
+var errorIfArrayItemIsNotNumber_1 = require("error-if-array-item-is-not-number/errorIfArrayItemIsNotNumber");
 function notInAscendingOrder(numbers) {
     var i = 0;
     while ((typeof numbers[i + 1]) !== 'undefined') {
