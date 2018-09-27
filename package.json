@@ -6,10 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/writetome51/number-analysis-basic.git"
-  },
   "keywords": [
     "math",
     "numbers",
@@ -17,9 +13,6 @@
   ],
   "author": "Steve Thompson",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/writetome51/number-analysis-basic/issues"
-  },
   "homepage": "",
   "dependencies": {
     "basic-data-handling": "latest",
