@@ -1,0 +1,28 @@
+{
+  "name": "@writetome51/number-analysis-basic",
+  "version": "1.0.0",
+  "description": "Functions that check numbers and all return boolean",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/writetome51/number-analysis-basic.git"
+  },
+  "keywords": [
+    "math",
+    "numbers",
+    "functions"
+  ],
+  "author": "Steve Thompson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/writetome51/number-analysis-basic/issues"
+  },
+  "homepage": "",
+  "dependencies": {
+    "basic-data-handling": "latest",
+    "error-if-array-item-is-not-number": "latest"
+  }
+}
