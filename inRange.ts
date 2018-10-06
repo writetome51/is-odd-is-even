@@ -1,7 +1,11 @@
 import { errorIfNotNumber } from 'basic-data-handling/errorIfNotNumber';
+import { errorIfNotPopulatedArray } from 'error-if-not-populated-array';
 
 
 export function inRange(range: [number, number], num): boolean {
+	if (range.length !== 2) {
+		throw new Error(`The range array must have exactly 2 numbers`);
+	}
 	errorIfAnyArgumentIsNotNumber();
 
 	if (range[0] > range[1]) {

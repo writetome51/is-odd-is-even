@@ -68,3 +68,15 @@ if (errorTriggered)
     console.log('test 12 passed');
 else
     console.log('test 12 failed');
+// Test 13
+errorTriggered = false;
+try {
+    isOdd_isEven_1.isOdd();
+}
+catch (e) {
+    errorTriggered = true;
+}
+if (errorTriggered)
+    console.log('test 13 passed');
+else
+    console.log('test 13 failed');

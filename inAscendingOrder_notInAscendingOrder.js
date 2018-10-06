@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var errorIfArrayItemIsNotNumber_1 = require("error-if-array-item-is-not-number/errorIfArrayItemIsNotNumber");
-var errorIfNotArray_1 = require("basic-data-handling/errorIfNotArray");
+var error_if_not_populated_array_1 = require("error-if-not-populated-array");
 function notInAscendingOrder(numbers) {
-    errorIfNotArray_1.errorIfNotArray(numbers);
+    error_if_not_populated_array_1.errorIfNotPopulatedArray(numbers);
     var i = 0;
     while ((typeof numbers[i + 1]) !== 'undefined') {
         errorIfArrayItemIsNotNumber_1.errorIfArrayItemIsNotNumber(numbers[i]);

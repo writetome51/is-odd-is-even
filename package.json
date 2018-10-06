@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/number-analysis-basic",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Functions that check numbers and all return boolean",
   "main": "",
   "scripts": {
@@ -16,6 +16,7 @@
   "homepage": "",
   "dependencies": {
     "basic-data-handling": "latest",
-    "error-if-array-item-is-not-number": "latest"
+    "error-if-array-item-is-not-number": "latest",
+    "error-if-not-populated-array": "latest"
   }
 }

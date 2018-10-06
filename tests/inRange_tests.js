@@ -52,7 +52,7 @@ if (inRange_1.inRange([10, 50], 50))
 else
     console.log('test 10 failed');
 // Test 11
-if (inRange_1.inRange([10, 50], 51))
+if (inRange_1.inRange([9.5, 20.2], 9.49))
     console.log('test 11 failed');
 else
     console.log('test 11 passed');
@@ -80,3 +80,39 @@ if (errorTriggered)
     console.log('test 13 passed');
 else
     console.log('test 13 failed');
+// Test 14
+errorTriggered = false;
+try {
+    inRange_1.inRange([0, 10]);
+}
+catch (e) {
+    errorTriggered = true;
+}
+if (errorTriggered)
+    console.log('test 14 passed');
+else
+    console.log('test 14 failed');
+// Test 15
+errorTriggered = false;
+try {
+    var x = inRange_1.inRange([1], 5);
+}
+catch (e) {
+    errorTriggered = true;
+}
+if (errorTriggered)
+    console.log('test 15 passed');
+else
+    console.log('test 15 failed');
+// Test 16
+errorTriggered = false;
+try {
+    var x = inRange_1.inRange();
+}
+catch (e) {
+    errorTriggered = true;
+}
+if (errorTriggered)
+    console.log('test 16 passed');
+else
+    console.log('test 16 failed');

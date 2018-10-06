@@ -1,10 +1,10 @@
 import { errorIfArrayItemIsNotNumber } 
 	from 'error-if-array-item-is-not-number/errorIfArrayItemIsNotNumber';
-import {errorIfNotArray} from 'basic-data-handling/errorIfNotArray';
+import {errorIfNotPopulatedArray} from 'error-if-not-populated-array';
 
 
 export function notInAscendingOrder(numbers): boolean {
-	errorIfNotArray(numbers);
+	errorIfNotPopulatedArray(numbers);
 	let i = 0;
 	while ((typeof numbers[i + 1]) !== 'undefined') {
 

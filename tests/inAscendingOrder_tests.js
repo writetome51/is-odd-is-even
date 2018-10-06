@@ -37,6 +37,11 @@ if (inAscendingOrder_notInAscendingOrder_1.inAscendingOrder([-1.023, -1.024, 0.2
 else
     console.log('test 7 passed');
 // Test 8
+if (inAscendingOrder_notInAscendingOrder_1.inAscendingOrder([1]))
+    console.log('test 8 passed');
+else
+    console.log('test 8 failed');
+// Test 9
 var errorTriggered = false;
 try {
     inAscendingOrder_notInAscendingOrder_1.inAscendingOrder([1, 2, '', 4, 6]);
@@ -45,10 +50,10 @@ catch (e) {
     errorTriggered = true;
 }
 if (errorTriggered)
-    console.log('test 8 passed');
+    console.log('test 9 passed');
 else
-    console.log('test 8 failed');
-// Test 9
+    console.log('test 9 failed');
+// Test 10
 errorTriggered = false;
 try {
     inAscendingOrder_notInAscendingOrder_1.inAscendingOrder(1, 2);
@@ -57,6 +62,30 @@ catch (e) {
     errorTriggered = true;
 }
 if (errorTriggered)
-    console.log('test 9 passed');
+    console.log('test 10 passed');
 else
-    console.log('test 9 failed');
+    console.log('test 10 failed');
+// Test 11
+errorTriggered = false;
+try {
+    inAscendingOrder_notInAscendingOrder_1.inAscendingOrder([]);
+}
+catch (e) {
+    errorTriggered = true;
+}
+if (errorTriggered)
+    console.log('test 11 passed');
+else
+    console.log('test 11 failed');
+// Test 12
+errorTriggered = false;
+try {
+    inAscendingOrder_notInAscendingOrder_1.inAscendingOrder();
+}
+catch (e) {
+    errorTriggered = true;
+}
+if (errorTriggered)
+    console.log('test 12 passed');
+else
+    console.log('test 12 failed');

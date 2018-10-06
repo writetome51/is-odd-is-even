@@ -30,6 +30,10 @@ if (inAscendingOrder([-1.023, -1.024, 0.222, 0.223])) console.log('test 7 failed
 else console.log('test 7 passed');
 
 // Test 8
+if (inAscendingOrder([1])) console.log('test 8 passed');
+else console.log('test 8 failed');
+
+// Test 9
 let errorTriggered = false;
 try{
 	inAscendingOrder([1,2,'', 4, 6]);
@@ -37,11 +41,11 @@ try{
 catch(e){
 	errorTriggered = true;
 }
-if (errorTriggered) console.log('test 8 passed');
-else console.log('test 8 failed');
+if (errorTriggered) console.log('test 9 passed');
+else console.log('test 9 failed');
 
 
-// Test 9
+// Test 10
 errorTriggered = false;
 try{
 	inAscendingOrder(1, 2);
@@ -49,5 +53,29 @@ try{
 catch(e){
 	errorTriggered = true;
 }
-if (errorTriggered) console.log('test 9 passed');
-else console.log('test 9 failed');
+if (errorTriggered) console.log('test 10 passed');
+else console.log('test 10 failed');
+
+
+// Test 11
+errorTriggered = false;
+try{
+	inAscendingOrder([]);
+}
+catch(e){
+	errorTriggered = true;
+}
+if (errorTriggered) console.log('test 11 passed');
+else console.log('test 11 failed');
+
+
+// Test 12
+errorTriggered = false;
+try{
+	inAscendingOrder();
+}
+catch(e){
+	errorTriggered = true;
+}
+if (errorTriggered) console.log('test 12 passed');
+else console.log('test 12 failed');
