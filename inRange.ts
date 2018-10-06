@@ -1,5 +1,4 @@
 import { errorIfNotNumber } from 'basic-data-handling/errorIfNotNumber';
-import { errorIfNotPopulatedArray } from 'error-if-not-populated-array';
 
 
 export function inRange(range: [number, number], num): boolean {
