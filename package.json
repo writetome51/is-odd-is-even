@@ -1,8 +1,8 @@
 {
-  "name": "@writetome51/number-analysis-basic",
-  "version": "1.0.2",
-  "description": "Functions that check numbers and all return boolean",
-  "main": "",
+  "name": "@writetome51/is-odd-is-even",
+  "version": "1.0.0",
+  "description": "2 functions that check if given integer is odd or even",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,8 +15,6 @@
   "license": "MIT",
   "homepage": "",
   "dependencies": {
-    "basic-data-handling": "latest",
-    "error-if-array-item-is-not-number": "latest",
-    "error-if-not-populated-array": "latest"
+    "basic-data-handling": "latest"
   }
 }
