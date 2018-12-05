@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/is-odd-is-even",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "2 functions that check if given integer is odd or even",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,7 @@
   "keywords": [
     "math",
     "numbers",
+    "number",
     "odd",
     "even"
   ],
@@ -16,6 +17,6 @@
   "license": "MIT",
   "homepage": "",
   "dependencies": {
-    "basic-data-handling": "latest"
+    "basic-data-handling": "~1.0.13"
   }
 }
