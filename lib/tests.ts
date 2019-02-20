@@ -1,4 +1,4 @@
-import { isEven, isOdd } from '../index';
+import { isEven, isOdd } from './index';
 
 
 // Test 1

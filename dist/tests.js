@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var index_1 = require("../index");
+var index_1 = require("./index");
 // Test 1
 if (index_1.isEven(0))
     console.log('test 1 passed');
