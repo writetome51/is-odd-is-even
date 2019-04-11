@@ -1,4 +1,4 @@
-import { errorIfNotInteger } from 'basic-data-handling/errorIfNotInteger';
+import { errorIfNotInteger } from 'error-if-not-integer';
 
 
 export function isEven(num) {
@@ -8,5 +8,5 @@ export function isEven(num) {
 
 
 export function isOdd(num) {
-	return (!isEven(num));
+	return (!(isEven(num)));
 }
