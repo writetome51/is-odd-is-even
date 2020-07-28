@@ -1,12 +1,9 @@
 {
   "name": "@writetome51/is-odd-is-even",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "2 functions that check if given integer is odd or even",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc"
-  },
+  "type": "module",
+  "main": "index.js",
   "keywords": [
     "math",
     "numbers",
@@ -19,6 +16,6 @@
   "license": "MIT",
   "homepage": "https://github.com/writetome51/is-odd-is-even#readme",
   "dependencies": {
-    "error-if-not-integer": "~1.0.0"
+    "error-if-not-integer": "^2.0.0"
   }
 }

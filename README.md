@@ -8,16 +8,14 @@ isOdd(2); // --> false
 isEven(2); // --> true
 
 isEven(2.2); // --> 'Error: input must be integer'
+
+isEven('2'); // --> 'Error: input must be finite number of type "number"'
 ```
 
 ## Installation
 `npm i  @writetome51/is-odd-is-even`
 
 ## Loading
-```
-// if using TypeScript:
+```js
 import { isOdd, isEven} from '@writetome51/is-odd-is-even'; 
-// if using ES5 JavaScript:
-var isOdd = require('@writetome51/is-odd-is-even').isOdd;
-var isEven = require('@writetome51/is-odd-is-even').isEven;
 ```
